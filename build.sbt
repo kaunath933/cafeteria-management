@@ -1,10 +1,10 @@
 name := "cafeteria-management"
 
-version := "0.1"
+version := "1.0"
 
 scalaVersion := "2.12.8"
 
-mainClass in Compile := Some("CafeteriaMgmtImpl")
+mainClass in Compile := Some("com.knoldus.cafeteriamgmt.Hello")
 
 libraryDependencies ++= {
   val mySqlVersion = "8.0.17"
